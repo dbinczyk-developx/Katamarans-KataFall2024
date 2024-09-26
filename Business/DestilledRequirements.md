@@ -9,6 +9,7 @@
 | Reports  | FR07               | Data Aggregation               | The backend must aggregate data on hiring decisions, capturing key data points such as candidate rejection, offers made, and demographic trends.                         |
 | Reports  | FR08               | Monthly Reports                | The platform must generate monthly analytics reports on key performance indicators (KPIs) related to hiring practices and interview outcomes.                            |
 | Reports  | FR09               | Process observability          | The platform must provide DEI consultants with access to monitor interviews, provide ratings, and submit reports to executive management.                                |
+| AI       | FR10               | AI engine improvement          | The AI resume and job description engine must be continuously improved based on feedback from DEI consultants and hiring managers.                                       |
 
 | **Requirement ID** | **Category**         | **Description**                                                                                                                                                     |
 |--------------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
