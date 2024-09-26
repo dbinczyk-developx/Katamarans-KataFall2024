@@ -1,4 +1,4 @@
-# ADR-003: Selecting cost as primary characteristic
+# ADR-002: Selecting cost as primary characteristic
 
 ## Date:
 2024-09-25
