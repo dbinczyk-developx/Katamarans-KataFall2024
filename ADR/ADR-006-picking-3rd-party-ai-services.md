@@ -1,4 +1,4 @@
-# ADR-003: Picking 3rd party AI services to reduce costs and time-to-market
+# ADR-006: Picking 3rd party AI services to reduce costs and time-to-market
 
 ## Date:
 2024-09-25
@@ -7,14 +7,14 @@
 Accepted
 
 ## Context:
-Due to the client's non-profit business model and selected in ADR-002 cost characteristic we had to decide between picking 3rd party AI services or deploying our own LLMs.
+Due to the client's non-profit business model and characteristics selected in previous ADRs, team had to decide between picking 3rd party AI services or deploying our own LLMs.
 
 ## Decision:
-Team decided to pick third-party AI service vendors to speed up time-to-market and reduce upfront costs associated with training, deploying, maintaining and fine-tuning local LLMs. This decision should be reconsidered in future during scaling.
+Team decided to pick third-party AI service vendors to speed up time-to-market and reduce upfront costs associated with training, deploying, maintaining and fine-tuning own LLMs. This decision should be reconsidered in future during scaling.
 
 ## Consequences:
 ### Pros:
-- **Cost-Effectiveness:** 3rd-party AI services typically operate on a pay-as-you-go model, allowing to only pay for what was used, avoiding the high upfront costs of infrastructure and ongoing maintenance of locally deployed models.
+- **Cost-Effectiveness:** 3rd-party AI services typically operate on a pay-as-you-go model, allowing to only pay for what was used, avoiding the high upfront costs of infrastructure and ongoing maintenance of deployed models.
 - **Ease of Implementation:** Integrating with an established AI service is usually faster and easier, as the provider handles much of the complexity around infrastructure, scaling, and model management, reducing the technical burden on the development team.
 
 ### Cons:
