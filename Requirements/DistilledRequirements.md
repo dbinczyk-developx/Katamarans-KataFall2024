@@ -22,7 +22,7 @@ are categorized based on their primary functionality and are listed below:
 
 # Non-Functional Requirements
 
-| **Requirement ID** | **Category**         | **Requriement name** | **Description**                                                                                                                                     |
+| **Requirement ID** | **Category**         | **Requirement name** | **Description**                                                                                                                                     |
 |--------------------|----------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | NFR01              | Non-Functional       |                      | The AI should offer a smooth user experience during a company registration and resume improving.                                                    |
 | NFR02              | Non-Functional       |                      | The system must ensure seamless adoption by businesses by enabling integrations with major HR platforms (e.g., SAP, Workday, Paycom, Paylocity) to. |
