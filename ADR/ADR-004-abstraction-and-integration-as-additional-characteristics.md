@@ -16,7 +16,7 @@ To have the system that is easily extended with new HR system connectors we pick
 ### Pros:
 - **Modularity and Reusability:** An abstraction layer allows you to create a generic connector interface that can be reused for different HR systems. Once built, new connectors can be added easily by implementing the specific interface.
 - **Ease of Maintenance:** Any changes or updates to an individual HR system connector can be isolated, as the abstracted layer separates the system-specific logic from the core application. This reduces the risk of breaking other parts of the system.
--- **Customizability for Specific HR Systems:** With a focus on integration, each HR system can have custom logic that maximizes the effectiveness of the connection. This allows to take advantage of specific features and capabilities of each system, ensuring optimal performance.
+- **Customizability for Specific HR Systems:** With a focus on integration, each HR system can have custom logic that maximizes the effectiveness of the connection. This allows to take advantage of specific features and capabilities of each system, ensuring optimal performance.
 
 ### Cons:
 - **Initial Complexity:** Designing and implementing a robust abstraction layer requires upfront planning and development, which can add complexity and slow down the initial release of the system.
