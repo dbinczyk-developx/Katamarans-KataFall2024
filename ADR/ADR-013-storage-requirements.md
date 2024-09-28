@@ -1,0 +1,1 @@
+TODO: describe ADR and add graphic visualising different cases for storage

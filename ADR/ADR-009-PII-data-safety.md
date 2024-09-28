@@ -21,6 +21,8 @@ The following security measures will be implemented:
 - **Data Retention:** Data will be stored as long as necessary for recruitment and DEI reporting purposes. Retention policies will ensure that data remains accessible and available for authorized users without unnecessary restrictions.
 - **Auditing:** The system will include audit logging to track access and modifications to PII and diversity metadata. This will provide transparency into who accessed the data and when, enabling compliance with regulatory requirements and offering visibility for internal oversight.
 
+TODO: Add something about of storing sensitive data only in two modules: candidate and match
+
 ## Consequences:
 ### Pros:
 - **Accountability and Transparency with Auditing:** Audit logging provides full visibility into who accessed PII and diversity metadata and when. This ensures accountability and compliance, particularly in sensitive environments where handling candidate information must be tracked for regulatory reasons.

@@ -16,6 +16,8 @@ Another option involved relying on manual verification, where both the job candi
 ## Decision:
 Due to cost constraints, a manual review process will be implemented. Both the job candidate and the potential employer can tag any remaining PII or diversity-related data that was not properly anonymized. These tagged resumes will be reviewed by system administrators to prevent abuse of the tagging process.
 
+TODO: Add graphic from event storming showing modules and actions to mark and process uncompliant resumes
+
 ## Consequences:
 ### Pros:
 - **Cost Efficiency:** By opting for a manual review process, the system avoids the costs associated with running a second AI model. This decision aligns with the system’s overall cost constraints while still ensuring that anonymization errors are identified and corrected.

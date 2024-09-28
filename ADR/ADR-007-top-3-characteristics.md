@@ -12,6 +12,8 @@ In previous ADRs team has identieifed multiple characteristics that will drive t
 ## Decision:
 The team has decided to select abstraction, cost, and integration as the Top 3 characteristics for the system’s architecture moving forward. This decision will guide all future design choices to ensure that the system remains flexible enough to integrate with new technologies, affordable for the client, and efficient in its operations across different platforms.
 
+TODO: Add graphic with characetristic worksheet.
+
 ## Consequences:
 ### Pros:
 - **Modular and Reusable Design:** By focusing on abstraction, the system will have a modular structure, making it easier to integrate not only multiple HR systems but also future AI components. New AI models or connectors can be added or swapped with minimal disruption.

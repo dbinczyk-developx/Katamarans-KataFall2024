@@ -12,6 +12,9 @@ In ADR-007, team identified abstraction, cost, and integration as the top charac
 ## Decision:
 The team has decided to adopt an Event-Driven Architecture (EDA) as the architectural style for the system. This architecture supports the system’s need for scalability, performance, and cost-efficiency, while also facilitating abstraction and integration. In an EDA, components communicate asynchronously through events, allowing different parts of the system (HR connectors, AI services) to operate independently, enabling future growth and evolvability with minimal disruption.
 
+TODO: Add graphic with architecture style worksheet and describe it
+TODO: Add argumentation why other matching styles were not selected
+
 ## Consequences:
 ### Pros:
 - **Loose Coupling and Modularity:** EDA aligns with abstraction by allowing components such as HR connectors and AI services to operate independently, facilitating easy maintenance, updates, and integration without tightly coupling components.
