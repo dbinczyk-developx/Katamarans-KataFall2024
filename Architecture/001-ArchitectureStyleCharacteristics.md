@@ -1,23 +1,23 @@
 # Architecture style characteristics
 
-The project team identified the key characteristics that would ensure the system meets its functional, performance, and operational requirements. Given the complexity of the system and its expected growth, we had to select a maximum of seven characteristics to avoid overcomplicating the architecture. This let us ensure that we concentrated on the most critical aspects of the system.
+The project team identified the key characteristics to ensure the system meets its functional, performance, and operational requirements. Given the complexity of the system and its expected growth, we had to select a maximum of seven characteristics to avoid overcomplicating the architecture. This lets us ensure that we concentrated on the most critical aspects of the system.
 
-Out of those seven characteristics we picked three that were later on used to pick the best architecture for the designed system.
+We picked three of those seven characteristics that were later used to pick the best architecture for the designed system.
 
 ## Selecting characteristics
-During event storming we identified several key system components that were later visualized on C4 diagrams.
+During event storming, we identified several key system components that were later visualized on C4 diagrams.
 
-Out of these we picked core three components (two AI engines, HR ntegration orchestrator) and two that have special security requiements:
+Out of these, we picked core three components (two AI engines and, HR integration orchestrator) and two that have special security requirements:
 - **Resume and candidate management** component that handles PII and diversity data that can be linked to the candidate
 - **Analytics & reporting** processing large amounts hiring and candidate diversity data that are not directly linked to the candidates, but to the job postings and companies instead.
 
-Even though security is emphasized, it is one of the implict characteristics and because of that it was not considered when picking Top 3.
+Even though security is emphasized, it is one of the implict characteristics and because of that, it was not considered when picking the Top 3.
 
-Integration characteristic is assigned only to the one of the components, but it was selected as Top 3 characteristic because of the business model and possible large count of HR systems this system can integrate with.
+Integration characteristic is assigned only to one of the components, but it was selected as Top 3 characteristic because of the business model and possible large count of HR systems this system can integrate with.
 
 <img src="images/picked-characteristics.png" />
 
-Below are listed all picked characteristics sorted from the most important to least.
+Below are listed all picked characteristics sorted from the most important to the least.
 
 ## Top 3 characteristics
 
@@ -26,7 +26,7 @@ Below are listed all picked characteristics sorted from the most important to le
 - **Importance:** For the system, particularly given its non-profit context, it is essential to control both the development and operational costs while scaling efficiently over time.
 
 ### 2. Abstraction
-- **Definition:** Level at which parts of the system are isolated from other parts of the system.
+- **Definition:** Level at which parts of the system are isolated from other parts.
 - **Importance:** Abstraction is essential to enable seamless integration with multiple HR systems and other external services, including AI models.
 
 ### 3. Integration
@@ -45,7 +45,7 @@ Below are listed all picked characteristics sorted from the most important to le
 
 ### 6. Performance
 - **Definition:** How fast a system can complete tasks to process a specific user requests.
-- **Importance:** Ensuring high performance of AI tasks is critical to provide fluid, delay-free experience during matching process.
+- **Importance:** Ensuring high performance of AI tasks is critical to provide a fluid, delay-free experience during the matching process.
 
 ### 7. Scalability
 - **Definition:** **Definition:** As user numbers or requests increase in the system, responsiveness, performance, and error rates remain constant.
@@ -61,7 +61,7 @@ Below are listed all picked characteristics sorted from the most important to le
 - **Compliance with Requirements:** This characteristic also helps to achieve the system’s need to handle multiple HR system integrations without overly complex or tightly coupled code.
 
 ### Integration
-- **Seamless Communication:** Integration ensures that the system can easily connect to various HR platforms and AI services. This allows for pushing resumes to employers and have stable influx of cash fundamental to the business model, making system self-sustainable in terms of costs.
+- **Seamless Communication:** Integration ensures that the system can easily connect to various HR platforms and AI services. This allows for pushing resumes to employers and have a stable influx of cash fundamental to the business model, making the system self-sustainable in terms of costs.
 - **Expandability:** As the system grows, integration allows for the connection of additional platforms without needing to rework the entire architecture.
 
 ### Security
