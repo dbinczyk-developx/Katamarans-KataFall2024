@@ -1,0 +1,1 @@
+TODO: Describe how we want to store PII data in secure fashion (encryption at rest, only specific components can decrypt data, table-level access for components)
