@@ -1,8 +1,8 @@
 ﻿# Distilled Functional Requirements
 
-During the elicitation process, we identified a set of functional and non-functional [requirements]() that are essential
-for
-the success of the AI-driven hiring platform. These requirements are distilled from the requirements prepare to
+During the elicitation requirements process based on [requirements](Requirements.md), we identified a set of functional
+and non-functional that are essential
+for the success of the AI-driven hiring platform. These requirements are distilled from the requirements prepare to
 focus on the core functionalities and features that will provide the most value to the users. The distilled requirements
 are categorized based on their primary functionality and are listed below:
 
@@ -22,10 +22,24 @@ are categorized based on their primary functionality and are listed below:
 
 # Non-Functional Requirements
 
-| **Requirement ID** | **Category**         | **Requirement name** | **Description**                                                                                                                                     |
-|--------------------|----------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| NFR01              | Non-Functional       |                      | The AI should offer a smooth user experience during a company registration and resume improving.                                                    |
-| NFR02              | Non-Functional       |                      | The system must ensure seamless adoption by businesses by enabling integrations with major HR platforms (e.g., SAP, Workday, Paycom, Paylocity) to. |
-| NFR03              | Non-Functional       |                      | DEI consultants should be able to monitor interviews, provide ratings, and submit reports to executive management to identify and reduce biases.    |
-| NFR04              | Security and Privacy |                      | All personal identifiable information must be anonymized to prevent bias.                                                                           |
-| NFR05              | Security and Privacy |                      | Candidate profiles and employer data must be securely stored, following relevant data protection regulations (e.g. CCPA).                           |
+The non-functional requirements define the key attributes and performance standards that the system must meet to ensure
+optimal operation, security, and user satisfaction. These requirements address how the system will perform under various
+conditions and how it will interact with users, data, and external systems. In this chapter, we outline the critical
+non-functional aspects such as user experience, security, performance, and system integration. These requirements are
+essential for creating a robust, scalable, and secure platform that meets business needs and compliance standards.
+
+| **Requirement ID** | **Category**         | **Requirement name**             | **Description**                                                                                                                                     |
+|--------------------|----------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| NFR01              | Non-Functional       | User Experience                  | The AI should offer a smooth user experience during a company registration and resume improving.                                                    |
+| NFR02              | Non-Functional       | System Integration               | The system must ensure seamless adoption by businesses by enabling integrations with major HR platforms (e.g., SAP, Workday, Paycom, Paylocity) to. |
+| NFR03              | Non-Functional       | Bias Monitoring                  | DEI consultants should be able to monitor interviews, provide ratings, and submit reports to executive management to identify and reduce biases.    |
+| NFR04              | Security and Privacy | Data Anonymization               | All personal identifiable information must be anonymized to prevent bias.                                                                           |
+| NFR05              | Security and Privacy | Secure Data Storage              | Candidate profiles and employer data must be securely stored, following relevant data protection regulations (e.g. CCPA).                           |
+| NFR06              | Performance          | Scalability                      | The platform must scale to handle increasing numbers of users (employers, job seekers, admins) without performance degradation.                     |
+| NFR07              | Usability            | Accessibility                    | The system must comply with accessibility standards (e.g., WCAG 2.1) to ensure usability for users with disabilities.                               |
+| NFR08              | Performance          | Response Time                    | The platform must ensure that job searches, resume uploads, and profile updates have a maximum response time of 3 seconds.                          |
+| NFR09              | Reliability          | Uptime                           | The system must maintain an uptime of 99.9% to ensure continuous availability for users during critical hiring periods.                             |
+| NFR10              | Maintenance          | Maintainability                  | The system should be easy to maintain, allowing for quick updates, patching, and upgrades without significant downtime.                             |
+| NFR11              | Security and Privacy | Data Encryption                  | All sensitive data (e.g., candidate profiles, employer information) must be encrypted both in transit and at rest.                                  |
+| NFR12              | Security and Privacy | Audit Logging                    | The system must maintain detailed audit logs of all user activities (e.g., profile updates, hiring decisions) for accountability and traceability.  |
+| NFR13              | Compatibility        | Browser and Device Compatibility | The platform must be compatible with all modern web browsers and provide a responsive design for mobile and tablet users.                           |
