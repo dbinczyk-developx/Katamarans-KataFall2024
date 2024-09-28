@@ -1,5 +1,28 @@
 # ClearView by Katamarans
 
+## Table of Contents
+
+- [Introduction](#introduction)
+
+
+
+## Introduction
+Business context, Business problem, Requirements, Stakeholders, Constraints, Assumptions, and Dependencies.
+
+## Requirements destination
+
+## Domain exploration
+Find processes and validate using event storming
+
+## Logical separation
+Creation bounded contexts and subdomains
+
+## Architecture characteristics
+
+## Architecture style selection
+
+## Bird's eye system view
+
 ## Team topologies
 
 We considered the application of Team Topologies principles to create an appropriate team distribution across the main
