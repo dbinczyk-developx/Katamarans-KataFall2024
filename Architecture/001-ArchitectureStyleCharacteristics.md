@@ -33,7 +33,7 @@ Below are listed all picked characteristics sorted from the most important to le
 - **Definition:** The ability of a system to seamlessly connect and interact with other systems, tools, or services.
 - **Importance:** The system’s business model relies on pushing candidate data to multiple HR systems, making integration a foundational requirement.
 
-## Remaining characteristics
+## Auxiliary characteristics
 
 ### 4. Security
 - **Definition:** Protecting the system and its data from unauthorized access or harm.
