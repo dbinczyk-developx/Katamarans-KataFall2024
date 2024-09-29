@@ -1,5 +1,9 @@
 # ClearView by Katamarans
 
+- Dawid Bińczyk
+- Kacper Cybula
+- Michał Fijałkowski
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -32,7 +36,22 @@ During the requirements analysis, understanding of the business purpose and proc
 
 ## Bird's eye system view
 
+The diagram below shows how to organise the designed system using the first level of C4 model. First of all, basing the architecture on events does not mean 
+using them for every communication.  The use of HTTP connections will work well for querying external AI systems. 
+On the other hand, the communication between the connectors of external HR systems and these systems is not strictly 
+defined and depends on the analysis of the systems to be connected to. Leaving these decisions to the development 
+team will allow to better addressed coming challenges.
+
 <img src="C4/images/C4-L2.jpg">
+
+## Fitness Functions
+
+| Fitness Function                                               | Description                                                                                                                                                          | Tested Characteristic |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| [Cost](FitnessFunctions/Cost.md)                               | The goal of that fitness function is to have a control of cost in the system. We are looking for provide a total cost of single job candidate main flow utilization. | Cost                  |
+| [EventHealthFormula](FitnessFunctions/EventHealthFormula.md)   | Defined to evaluate the health and efficiency of the system based on the percentage of failed events.                                                                | Fault Tolerance       |
+| [EventualConsistency](FitnessFunctions/EventualConsistency.md) | Set of metrics used to evaluate how well the system is maintaining consistency across its distributed components over time.                                          | Consistency           |
+
 
 ## Team topologies
 
