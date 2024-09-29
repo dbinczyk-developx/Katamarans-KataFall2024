@@ -18,9 +18,11 @@ Find processes and validate using event storming
 Creation bounded contexts and subdomains
 
 ## Key Challenges
+
+During the requirements analysis, understanding of the business purpose and proceeding Event Storming technique, the following key challenges were identified
 1. External AI Services security and costs.
 2. External HR systems integration.
-3. Secure PII processing supporting analysis and reporting.
+3. Secure PII processing to support analysis and reporting.
 
 ## Architecture characteristics
 
