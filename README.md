@@ -4,8 +4,6 @@
 
 - [Introduction](#introduction)
 
-
-
 ## Introduction
 Business context, Business problem, Requirements, Stakeholders, Constraints, Assumptions, and Dependencies.
 
@@ -17,11 +15,15 @@ Find processes and validate using event storming
 ## Logical separation
 Creation bounded contexts and subdomains
 
+<img src="EventStorming/images/4.jpg">
+
 ## Architecture characteristics
 
 ## Architecture style selection
 
 ## Bird's eye system view
+
+<img src="C4/images/C4-L2.jpg">
 
 ## Team topologies
 

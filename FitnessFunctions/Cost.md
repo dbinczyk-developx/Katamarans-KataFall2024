@@ -3,7 +3,7 @@
 ## Introduction and assumptions
 
 The goal of that fitness function is to have a control of cost in the system. We are looking for provide a total cost of
-single job candidate main flow utilization.
+single job candidate main flow utilization. In that fitness function we focus on the AI Service cost due to the main impact on total amount.
 
 Assumptions:
 * *Resume*  - contains around 300 words to process
@@ -23,10 +23,6 @@ Cost of anonymization 300 words 2 times: 0,02$
 
 Total costs of processing a job candidate through hiring process: <b>0,06$</b>
 
-## Infrastructure costs
-
-Czy chcemy to czy zrobimy to tylko dla AI?
-
 ## Benefits
 
 There are several benefits of taking care about described fitness function:
@@ -35,4 +31,4 @@ There are several benefits of taking care about described fitness function:
 we can identify a minimal price for unlocking resume so that the whole process does not generate money losses.
 3. **Limit of requests generated**: If calling AI services costs are high, we can think about reducing them per candidate.
 4. **Compare AI models and providers**: Checking the calculated amount makes it possible to assess whether a change of model or AI service provider is necessary in context of the costs.
-5. **Creating In-House model decision**: If the cost of external services is high, an in-house model may be required.
+5. **In-house model consideration**: If the cost of external services is high, an in-house model may be required.
