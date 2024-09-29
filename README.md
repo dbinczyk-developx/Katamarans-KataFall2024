@@ -12,12 +12,14 @@ Business context, Business problem, Requirements, Stakeholders, Constraints, Ass
 ## Domain exploration
 Find processes and validate using event storming
 
+<img src="EventStorming/images/4.jpg">
+
 ## Logical separation
 Creation bounded contexts and subdomains
 
-<img src="EventStorming/images/4.jpg">
-
 ## Architecture characteristics
+
+<img src="Architecture/images/picked-characteristics.png">
 
 ## Architecture style selection
 
