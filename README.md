@@ -36,8 +36,11 @@ During the requirements analysis, understanding of the business purpose and proc
 ## Architecture characteristics
 
 <img src="Architecture/images/picked-characteristics.png">
+<img src="ADR/images/ADR-007-characteristics-sheet.JPG">
 
 ## Architecture style selection
+
+<img src="ADR/images/ADR-008-architecture-style-sheet.JPG">
 
 ## Bird's eye system view
 
