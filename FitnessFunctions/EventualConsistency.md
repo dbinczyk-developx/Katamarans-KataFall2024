@@ -14,6 +14,6 @@ In an event-based architecture focusing on eventual consistency, a fitness funct
 
 6. **User Experience Metrics**: Considers user feedback regarding data coherence and the perceived consistency of the system's state. Positive user experiences signal effective eventual consistency.
 
-## Benefits
+## Considerations
 
 The fitness function provides a way to monitor and optimize the architecture over time, ensuring that the system continues to meet its eventual consistency goals. By systematically evaluating these metrics, developers can identify bottlenecks and adapt the architecture to improve performance and reliability.

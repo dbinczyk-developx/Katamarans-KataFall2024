@@ -17,6 +17,11 @@ Find processes and validate using event storming
 ## Logical separation
 Creation bounded contexts and subdomains
 
+## Key Challenges Indicators
+1. External AI Services security and costs.
+2. External HR systems integration.
+3. Secure analysis and reporting process
+
 ## Architecture characteristics
 
 <img src="Architecture/images/picked-characteristics.png">

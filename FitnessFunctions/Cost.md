@@ -16,14 +16,14 @@ To calculate the costs, we will use the calculator available at: https://gptforw
 
 <img src="images/OpenAiPricing.png" />
 
-Model <b>gpt-4o</b> was selected as a good quality one with reasonable price.
+Model <b>gpt-4o</b> was selected to show an example as a good quality one with reasonable price.
 
 Cost of giving a tips 10 times 300 words: 0,04$
 Cost of anonymization 300 words 2 times: 0,02$
 
 Total costs of processing a job candidate through hiring process: <b>0,06$</b>
 
-## Benefits
+## Considerations
 
 There are several benefits of taking care about described fitness function:
 1. **Maintenance costs**: As the number of users increases, we can easily examine what the cost of maintaining the system will be
