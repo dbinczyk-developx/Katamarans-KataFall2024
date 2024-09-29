@@ -12,7 +12,7 @@ In previous ADRs team has identieifed multiple characteristics that will drive t
 ## Decision:
 The team has decided to select abstraction, cost, and integration as the Top 3 characteristics for the system’s architecture moving forward. This decision will guide all future design choices to ensure that the system remains flexible enough to integrate with new technologies, affordable for the client, and efficient in its operations across different platforms.
 
-TODO: Add graphic with characetristic worksheet.
+<img src="images/ADR-007-characteristics-sheet.JPG">
 
 ## Consequences:
 ### Pros:

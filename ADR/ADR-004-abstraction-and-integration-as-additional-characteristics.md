@@ -12,7 +12,8 @@ Client's business model includes pushing candidate resumes to employer's HR syst
 ## Decision:
 To have the system that is easily extended with new HR system connectors we picked abstraction and integration as additional the characteristics to be considered in the selection system architecture.
 
-TODO: Add partial C4L2 graphic visualising components for HR integrations (match engine, orchestrator, integrators and HR systems)
+
+<img src="images/ADR-004-integration-components.png" />
 
 ## Consequences:
 ### Pros:

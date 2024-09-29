@@ -16,7 +16,7 @@ Another option involved relying on manual verification, where both the job candi
 ## Decision:
 Due to cost constraints, a manual review process will be implemented. Both the job candidate and the potential employer can tag any remaining PII or diversity-related data that was not properly anonymized. These tagged resumes will be reviewed by system administrators to prevent abuse of the tagging process.
 
-TODO: Add graphic from event storming showing modules and actions to mark and process uncompliant resumes
+<img src="images/ADR-010-compliance-events.png">
 
 ## Consequences:
 ### Pros:
