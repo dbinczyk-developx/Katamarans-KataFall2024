@@ -6,8 +6,6 @@ In today's competitive job market, both candidates and employers are increasingl
 
 ## Collecting events
 
-
-
 Collecting events during an Event Storming session is a collaborative and iterative process that allows teams to gain a shared understanding of the current business processes. This foundational knowledge is crucial for designing robust systems that align with business needs. By focusing on events, stakeholders can visualize the flow of information and decisions, ensuring that no critical elements are overlooked in the system design. The resulting event map will serve as a valuable reference for further discussions, modeling, and eventual system implementation.
 
 <img src="images/1.jpg" />
@@ -45,7 +43,6 @@ During the session our team identified following events:
 28. **Job description deleted**: An existing job description is removed from the system.
 29. **Company added**: A new company profile is created in the system.
 
-
 ## Time sequence
 
 Arranging events in chronological order during event storming is essential for gaining a comprehensive understanding of the system, fostering collaboration, clarifying business logic, and ensuring that the design can accommodate real-world scenarios effectively. It serves as a foundational step in building a clear and shared understanding among all participants involved in the process.
@@ -58,7 +55,7 @@ Integrating actors, commands, and external services in Event Storming brings cla
 
 <img src="images/3.jpg" />
 
-Description of the application actors:
+### Description of the application actors:
 
 **Job Candidate**: The Job Candidate interacts with the system to upload resumes and apply for job openings. AI algorithms analyze their skills and preferences to assist with interview preparation, and offer feedback on their applications.
 
@@ -68,7 +65,7 @@ Description of the application actors:
 
 **System**: The HR System serves as the centralized platform that connects candidates, employers, and administrators. It employs AI algorithms for resume anonymization and tips for resume and company details. The system ensures a smoother hiring process, improves decision-making, and enhances the overall user experience.
 
-External systems detected:
+### External systems detected:
 
 **HR systems**: Recruitment platforms are used by companies to streamline their hiring processes. These systems allow organizations to manage job postings, applicant data, and recruitment workflows. Our goal is to export unlocked resumes there.
 
@@ -80,33 +77,34 @@ The goal of grouping events in event storming is to organize and categorize even
 
 Description of identified application components:
 
-1. **Resume Management**: A system for collecting, organizing, and evaluating applicants' resumes, allowing recruiters to improve the resume by tips driven by AI.
+1. **Resume and candidate data management**: A system for collecting, organizing, and evaluating applicants' resumes, allowing recruiters to improve the resume by tips driven by AI.
 
-2. **Tips Engine (AI-based)**: An AI-driven feature that provides personalized suggestions and best practices for candidates, helping them improve their resumes, cover letters, and interview performance.
+2. **Tips Engine (AI)**: An AI-driven feature that provides personalized suggestions and best practices for candidates, helping them improve their resumes, cover letters, and interview performance.
 
-3. **Matching Engine**: An algorithmic tool that compares job descriptions with candidate profiles to identify the best matches based on skills, experience, and other relevant criteria, streamlining the selection process.
+3. **Matching and tokenization engine**: An algorithmic tool that compares job descriptions with candidate profiles to identify the best matches based on skills, experience, and other relevant criteria, streamlining the selection process.
 
-4. **Match and Candidate Management**: A centralized component that allows recruiters to track candidates' progress, manage applications, facilitate communication, and oversee the matching process throughout the hiring cycle.
+4. **Match management**: A centralized component that allows recruiters to track candidates' progress, manage applications, facilitate communication, and oversee the matching process throughout the hiring cycle.
 
-5. **Invoicing**: An automated billing system for managing financial transactions.
+5. **HR integration orchestrator**: The ability to connect and synchronize with existing HR software and systems to enhance data flow, reduce redundancy, and improve overall efficiency in recruitment processes.
 
-6. **HR System Integrations**: The ability to connect and synchronize with existing HR software and systems to enhance data flow, reduce redundancy, and improve overall efficiency in recruitment processes.
+6. **Company & Job Description Management**: Tools for creating, editing, and managing company profiles and job descriptions, ensuring consistency and clarity in job postings and employer branding.
 
-7. **Company & Job Description Management**: Tools for creating, editing, and managing company profiles and job descriptions, ensuring consistency and clarity in job postings and employer branding.
+7. **Anonymization Engine (AI)**: A feature that uses AI to remove identifying information from candidate applications, promoting unbiased recruitment practices and enhancing diversity efforts.
 
-8. **Anonymization (AI-based)**: A feature that uses AI to remove identifying information from candidate applications, promoting unbiased recruitment practices and enhancing diversity efforts.
+8. **Analytics and Reporting**: A suite of analytical tools that track recruitment metrics, providing insights into hiring trends, candidate sourcing effectiveness, and overall recruitment performance to support strategic decision-making.
 
-9. **Analytics and Reporting**: A suite of analytical tools that track recruitment metrics, providing insights into hiring trends, candidate sourcing effectiveness, and overall recruitment performance to support strategic decision-making.
+## Key components
 
-10. **User Management**: A module for managing user roles and permissions within the HR application, allowing administrators to control access levels for recruiters and hiring managers while ensuring data security and compliance.
+- **Tips Engine (AI)**
+
+- **Anonymization Engine (AI)**
+
+- **HR integration orchestrator**
+
+- **Analytics and Reporting**
 
 
-Of which the following components have been identified as key to the system under development:
+  <img src="images/components.jpg" />
 
-**Tips Engine (AI-based)**: This component leverages artificial intelligence to analyze user interactions and data patterns, providing personalized recommendations and insights. It enhances user experience by offering tailored suggestions, improving engagement, and driving better decision-making.
 
-**Matching Engine**: The matching engine is vital for connecting users with relevant opportunities, services, or content based on their preferences and profiles. Its effectiveness directly impacts user satisfaction and retention by ensuring that individuals receive what they're looking for quickly and accurately.
 
-**Anonymization (AI-based)**: AI-based anonymization protects user privacy by removing or obfuscating personally identifiable information from datasets. It helps protect the identities of individuals from various backgrounds in datasets, ensuring that sensitive information is not compromised.
-
-**HR System Integrations**: Integrating with HR systems is essential for streamlining workflows, automating processes, and ensuring that user data is synchronized across platforms. This enhances efficiency and allows for better decision-making based on comprehensive data analytics, ultimately supporting talent management and organizational goals.
