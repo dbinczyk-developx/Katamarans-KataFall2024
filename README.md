@@ -20,6 +20,10 @@ The [Event Storming](EventStorming/EventStorming.md) technique was used to ident
 <img src="EventStorming/images/4.jpg">
 
 ## Logical separation
+
+A broad view of Event Storming allowed to define the ClearView components. Taking into account the business requirements and key 
+technical aspects, it was possible to identify which components were crucial for further analysis of the architecture.
+
 <img src="EventStorming/images/components.jpg">
 
 ## Key Architecture Challenges
