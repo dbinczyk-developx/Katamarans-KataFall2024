@@ -62,19 +62,24 @@ Sources
 
 ## Requirements distillation
 
-We employed a collaborative approach involving key stakeholders,
-including hiring managers, DEI consultants, and potential users to achieve effective requirement distillation. Through workshops and interviews, we gathered insights
+To achieve effective requirement distillation, we employed a collaborative approach involving key stakeholders,
+including hiring managers, DEI consultants, and potential users point of views. Through workshops we gathered insights
 and identified pain points in the current hiring processes. This information was then analyzed to prioritize features
 that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
 following sections: [Functional Requirements](Requirements/DistilledRequirements.md#distilled-functional-requirements)
 and [Non-Functional Requirements](Requirements/DistilledRequirements.md#distilled-non-functional-requirements), ensuring
 the platform delivers maximum user value.
 
-Following the distillation process, we conducted a thorough requirement validation to ensure that the identified
-requirements aligned with user needs and business objectives. This validation involved iterative feedback sessions with
-stakeholders, where we presented the distilled requirements for review and discussion. By utilizing techniques that we
-mention in the [Domain exploration](#domain-exploration) chapter, we ensured that all stakeholders had the opportunity to
-provide input, thus enhancing the quality and relevance of the requirements.
+To achieve effective requirement distillation, we employed a collaborative approach using the "Six Thinking Hats"
+technique. In place of direct stakeholder meetings, we identified key perspectives represented by six hats: job
+candidate, DEI consultant, employer, solution owner, architect, and HR manager. Each "hat" brought a different viewpoint
+to the table, helping us explore all dimensions of the hiring process from user experience to technical feasibility.
+
+<img src="Requirements/images/hats.PNG">
+
+This method allowed us to rigorously evaluate and prioritize features based on their impact and alignment with our
+goals. Its success led us to continue using it in later phases, including the creation of the solution architecture,
+ensuring a well-rounded approach throughout.
 
 Additionally, we employed usability testing and scenario-based evaluations to assess how well the proposed requirements
 would function in real-world applications. This process helped us identify any gaps or inconsistencies, allowing for
