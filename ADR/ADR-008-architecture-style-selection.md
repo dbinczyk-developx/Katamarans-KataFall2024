@@ -7,7 +7,7 @@
 Accepted
 
 ## Context:
-In ADR-007, team identified abstraction, cost, and integration as the top characteristics guiding the architecture style selection. Besides those three, team picked out performance, scalability, evolvability as an extra characteristics that should be considered during selection. Continuing the work, team explored several architectural patterns to best meet these selections.
+In [ADR-007](ADR-007-top-3-characteristics.md), team identified abstraction, cost, and integration as the top characteristics guiding the architecture style selection. Besides those three, team picked out performance, scalability, evolvability as an extra characteristics that should be considered during selection. Continuing the work, team explored several architectural patterns to best meet these selections.
 
 ## Decision:
 The team has decided to adopt an Event-Driven Architecture (EDA) as the architectural style for the system. This architecture supports the system’s need for scalability, performance, and cost-efficiency, while also facilitating abstraction and integration. In an EDA, components communicate asynchronously through events, allowing different parts of the system (HR connectors, AI services) to operate independently, enabling future growth and evolvability with minimal disruption.
