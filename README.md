@@ -1,8 +1,11 @@
 # ClearView by Katamarans
+<img src="repo-banner.png" >
 
-- Dawid Bińczyk
-- Kacper Cybula
-- Michał Fijałkowski
+## Team
+
+- Dawid Bińczyk | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
+- Kacper Cybula | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
+- Michał Fijałkowski | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
 
 ## Table of Contents
 
@@ -13,6 +16,7 @@
 - [Architecture characteristics](#architecture-characteristics)
 - [Architecture style selection](#architecture-style-selection)
 - [Bird's eye system view](#birds-eye-system-view)
+- [Example deployment](#example-deployment)
 - [Fitness Functions](#fitness-functions)
 - [Team topologies](#team-topologies)
 
