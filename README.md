@@ -1,12 +1,11 @@
 # ClearView by Katamarans
-
 <img src="banner.png" >
 
 ## Team
 
-- Michał Fijałkowski &nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
-- Dawid Bińczyk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
-- Kacper Cybula &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
+- Michał Fijałkowski  &nbsp; | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
+- Dawid Bińczyk       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
+- Kacper Cybula   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
 
 ## Table of Contents
 
@@ -157,10 +156,8 @@ systems this system can integrate with.
 ## Architecture style selection
 
 After selecting [Top 3 characteristics (ADR-007)](ADR/ADR-007-top-3-characteristics.md) we moved on to the architectural
-style selection. Given our criteria, three styles emerged as the good candidates:
-microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining
-characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and
-evolvability issue. Microkernel was rejected due to problematic scalability.
+style selection. Given our criteria, three styles emerged as the good candidates: 
+microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and evolvability issue. Microkernel was rejected due to problematic scalability.
 
 Our consideration led us to the event-driven architecture as our target architecture.
 
@@ -171,8 +168,7 @@ are low cost, ease of introducing changes and high performance
 
 ## Bird's eye system view
 
-The diagram below shows how to organise the designed system using the second level of [C4 model](C4/C4.md). First of
-all,
+The diagram below shows how to organise the designed system using the second level of [C4 model](C4/C4.md). First of all,
 basing the architecture on events does not mean
 using them for every communication. HTTP connections will work well for querying external AI systems.
 On the other hand, the communication between the connectors of external HR systems and these systems is not strictly
@@ -182,10 +178,7 @@ team will allow to better addressed coming challenges.
 <img src="C4/images/C4-L2.jpg">
 
 ## Example deployment
-
-To test out validity of our architecture we started thinking how the deployment of an entire system would look like.
-Outcome of that, was this example Azure deployment diagram. More detailed description can be found
-in [deployment example document](Deployment/001-deployment-example.md).
+To test out validity of our architecture we started thinking how the deployment of an entire system would look like. Outcome of that, was this example Azure deployment diagram. More detailed description can be found in [deployment example document](Deployment/001-deployment-example.md).
 
 <img src="Deployment/images/clearview_deployment_diagram.drawio.png">
 
