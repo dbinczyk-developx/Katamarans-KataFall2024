@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Requirements destillation](#requirements-destillation)
 - [Domain exploration](#domain-exploration)
 - [Logical separation](#logical-separation)
 - [Key Architecture Challenges](#key-architecture-challenges)
