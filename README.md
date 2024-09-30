@@ -72,9 +72,9 @@ the platform delivers maximum value to its users.
 
 Following the distillation process, we conducted a thorough requirement validation to ensure that the identified
 requirements align with user needs and business objectives. This validation involved iterative feedback sessions with
-stakeholders, where we presented the distilled requirements for review and discussion. By utilizing techniques such as
-user story mapping and prototyping, we ensured that all stakeholders had the opportunity to provide input, thus
-enhancing the quality and relevance of the requirements.
+stakeholders, where we presented the distilled requirements for review and discussion. By utilizing techniques that we
+mention in [Domain exploration](#domain-exploration) chapter, we ensured that all stakeholders had the opportunity to
+provide input, thus enhancing the quality and relevance of the requirements.
 
 Additionally, we employed usability testing and scenario-based evaluations to assess how well the proposed requirements
 would function in real-world applications. This process helped us identify any gaps or inconsistencies, allowing for
