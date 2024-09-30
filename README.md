@@ -1,5 +1,5 @@
 # ClearView by Katamarans
-<img src="repo-banner.png" >
+<img src="banner.png" >
 
 ## Team
 
