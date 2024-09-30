@@ -93,16 +93,7 @@ Description of identified application components:
 
 8. **Analytics and Reporting**: A suite of analytical tools that track recruitment metrics, providing insights into hiring trends, candidate sourcing effectiveness, and overall recruitment performance to support strategic decision-making.
 
-## Key components
-
-- **Tips Engine (AI)**
-
-- **Anonymization Engine (AI)**
-
-- **HR integration orchestrator**
-
-- **Analytics and Reporting**
-
+## Identified system components
 
   <img src="images/components.jpg" />
 

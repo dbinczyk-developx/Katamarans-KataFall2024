@@ -97,9 +97,7 @@ in time and determine the contexts of the ClearView application.
 
 <img src="EventStorming/images/4.jpg">
 
-A broad view of Event Storming allowed us to define the ClearView components. Taking into account the business requirements
-and key
-technical aspects, it was possible to identify which components were crucial for further analysis of the architecture.
+A broad view of Event Storming allowed us to define ClearView components crucial for further analysis of the architecture.
 
 <img src="EventStorming/images/components.jpg">
 
