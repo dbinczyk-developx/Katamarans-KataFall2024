@@ -156,9 +156,10 @@ systems this system can integrate with.
 ## Architecture style selection
 
 After selecting [Top 3 characteristics (ADR-007)](ADR/ADR-007-top-3-characteristics.md) we moved on to the architectural
-style selection. Given our criteria, two styles emerged as the good candidates: microkernel and event-driven
-architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process,
-which led us to the event-driven architecture as our target architecture.
+style selection. Given our criteria, three styles emerged as the good candidates: 
+microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and evolvability issue. Microkernel was rejected due to problematic scalability.
+
+Our consideration led us to the event-driven architecture as our target architecture.
 
 This decision is described in more detail in [ADR-008](ADR/ADR-008-architecture-style-selection.md), but key benefits
 are low cost, ease of introducing changes and high performance

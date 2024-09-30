@@ -14,7 +14,9 @@ The team has decided to adopt an Event-Driven Architecture (EDA) as the architec
 
 <img src="images/ADR-008-architecture-style-sheet.png">
 
-**Note:** Microkernel architecture was originally considered as it scored similarly to Event-Driven on Top 3 characteristics, but when taking into account secondary characteristics EDA turned out to be a better fit.
+**Note:** Given our criteria, three styles emerged as the good candidates: 
+microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and evolvability issue. 
+Microkernel was rejected due to problematic scalability.
 
 ## Consequences:
 ### Pros:
