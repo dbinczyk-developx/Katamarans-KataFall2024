@@ -44,7 +44,7 @@ During the requirements analysis, understanding of the business purpose and proc
 
 ## Bird's eye system view
 
-The diagram below shows how to organise the designed system using the first level of [C4 model(C4/C4.md). First of all, basing the architecture on events does not mean 
+The diagram below shows how to organise the designed system using the first level of [C4 model](C4/C4.md). First of all, basing the architecture on events does not mean 
 using them for every communication.  The use of HTTP connections will work well for querying external AI systems. 
 On the other hand, the communication between the connectors of external HR systems and these systems is not strictly 
 defined and depends on the analysis of the systems to be connected to. Leaving these decisions to the development 
