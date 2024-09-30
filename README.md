@@ -177,6 +177,11 @@ team will allow to better addressed coming challenges.
 
 <img src="C4/images/C4-L2.jpg">
 
+## Example deployment
+To test out validity of our architecture we started thinking how the deployment of an entire system would look like. Outcome of that, was this example Azure deployment diagram. More detailed description can be found in [deployment example document](Deployment/001-deployment-example.md).
+
+<img src="Deployment/images/clearview_deployment_diagram.drawio.png">
+
 ## Fitness Functions
 
 | Fitness Function                                                   | Description                                                                                                                                                          | Tested Characteristic |
