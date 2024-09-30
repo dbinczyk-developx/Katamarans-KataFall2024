@@ -101,17 +101,14 @@ following key architecture challenges were identified
 
 When approching the project it became obvious that the project will be operating under few assumptions:
 
-- Considering client is a non-profit organisation with limited funding, one of the main factors would be [**cost
-  ** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
+- Considering client is a non-profit organisation with limited funding, one of the main factors would be [**cost** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
 - Because, the designed system has to integrate with various existing and new HR systems through use of connectors, it
-  was decided to pick [**abstraction and integration
-  ** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md) as the next characteristics.
+  was decided to pick [**abstraction and integration** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md) as the next characteristics.
 - We are going to
   use [AI technologies which change very rapidly (ADR-005)](ADR/ADR-005-changing-AI-solution-landscape.md), because of
   that we had to consider **evolvability** as a characteristic supporting abstraction and integration.
 - Client wants to use AI in few modules which can directly affect the user experience. Following up on the decision
-  about evolving AI market, model efficiency and costs we decided to pick [**performance and scalability
-  ** (ADR-003)](adr/ADR-003-ai-performance-considerations.md) as our last characteristics
+  about evolving AI market, model efficiency and costs we decided to pick [**performance and scalability** (ADR-003)](adr/ADR-003-ai-performance-considerations.md) as our last characteristics
 
 During event storming, we identified several key system components that were later visualized on C4 diagrams.
 
