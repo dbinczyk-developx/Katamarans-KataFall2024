@@ -20,12 +20,12 @@
 
 Discrimination in the recruitment process remains a significant challenge globally. Studies reveal that individuals from
 marginalized groups, including those with disabilities, women, ethnic minorities, and members of the LGBTQ+ community,
-face a range of barriers in securing employment. For example:
+face a range of barriers in securing employment process. For example:
 
 - research from Harvard Business School indicates that
   ethnic **minorities are 24% less likely to receive a callback** for an interview compared to equally qualified white
   applicants [^1].
-- Additionally, a report from Pew Research center found that **42% women
+- Additionally, a report from the Pew Research Center found that **42% of women
   experience workplace discrimination** [^2].
 
 Traditional hiring systems continue to foster unconscious bias, often preventing diverse talent from receiving fair
@@ -43,7 +43,7 @@ The current hiring landscape faces several challenges in promoting fairness and 
 
 1. There is a **lack of impactful metrics** that accurately identify and reduce potential biases in the job candidate
    hiring and interview process. Many existing systems rely on diversity data early in the recruitment process, which
-   can introduce bias rather than prevent it. Our approach eliminates diversity information at the early stages,
+   can introduce bias rather than prevent it. Our approach eliminates the diversity of information at the early stages,
    ensuring that decisions are based solely on objective qualifications and experience.
 2. Traditional Applicant Tracking Software (ATS, called in this repo HR system) often proves redundant and **ineffective
    in matching** viable
@@ -62,18 +62,18 @@ Sources
 
 ## Requirements distillation
 
-To achieve effective requirement distillation, we employed a collaborative approach involving key stakeholders,
-including hiring managers, DEI consultants, and potential users. Through workshops and interviews, we gathered insights
+We employed a collaborative approach involving key stakeholders,
+including hiring managers, DEI consultants, and potential users to achieve effective requirement distillation. Through workshops and interviews, we gathered insights
 and identified pain points in the current hiring processes. This information was then analyzed to prioritize features
 that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
 following sections: [Functional Requirements](Requirements/DistilledRequirements.md#distilled-functional-requirements)
 and [Non-Functional Requirements](Requirements/DistilledRequirements.md#distilled-non-functional-requirements), ensuring
-the platform delivers maximum value to its users.
+the platform delivers maximum user value.
 
 Following the distillation process, we conducted a thorough requirement validation to ensure that the identified
-requirements align with user needs and business objectives. This validation involved iterative feedback sessions with
+requirements aligned with user needs and business objectives. This validation involved iterative feedback sessions with
 stakeholders, where we presented the distilled requirements for review and discussion. By utilizing techniques that we
-mention in [Domain exploration](#domain-exploration) chapter, we ensured that all stakeholders had the opportunity to
+mention in the [Domain exploration](#domain-exploration) chapter, we ensured that all stakeholders had the opportunity to
 provide input, thus enhancing the quality and relevance of the requirements.
 
 Additionally, we employed usability testing and scenario-based evaluations to assess how well the proposed requirements
@@ -88,7 +88,7 @@ in time and determine the contexts of the ClearView application.
 
 <img src="EventStorming/images/4.jpg">
 
-A broad view of Event Storming allowed to define the ClearView components. Taking into account the business requirements
+A broad view of Event Storming allowed us to define the ClearView components. Taking into account the business requirements
 and key
 technical aspects, it was possible to identify which components were crucial for further analysis of the architecture.
 
@@ -107,17 +107,19 @@ following key architecture challenges were identified
 
 When approching the project it became obvious that the project will be operating under few assumptions:
 
-- Considering client is a non-profit organisation with limited funding, one of the main factors would be [**cost
-  ** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
-- Because, the designed system has to integrate with various existing and new HR systems through use of connectors, it
-  was decided to pick [**abstraction and integration
-  ** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md) as the next characteristics.
+- Considering client is a non-profit organisation with limited funding, one of the main factors would be
+- [**cost** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
+- Because the designed system has to integrate with various existing and new HR systems through use of connectors, it
+  was decided to pick
+  [**abstraction and integration** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md)
+  as the next characteristic.
 - We are going to
   use [AI technologies which change very rapidly (ADR-005)](ADR/ADR-005-changing-AI-solution-landscape.md), because of
   that we had to consider **evolvability** as a characteristic supporting abstraction and integration.
 - Client wants to use AI in few modules which can directly affect the user experience. Following up on the decision
-  about evolving AI market, model efficiency and costs we decided to pick [**performance and scalability
-  ** (ADR-003)](adr/ADR-003-ai-performance-considerations.md) as our last characteristics
+  about the evolving AI market, model efficiency and costs we decided to pick
+  [**performance and scalability** (ADR-003)](adr/ADR-003-ai-performance-considerations.md)
+  as our last characteristics
 
 During event storming, we identified several key system components that were later visualized on C4 diagrams.
 
