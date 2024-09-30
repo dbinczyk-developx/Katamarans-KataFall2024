@@ -11,6 +11,31 @@
 ## Introduction
 Business context, Business problem, Requirements, Stakeholders, Constraints, Assumptions, and Dependencies.
 
+Introduction
+
+Discrimination in the recruitment process remains a significant challenge globally. Studies reveal that individuals from marginalized groups, including those with disabilities, women, ethnic minorities, and members of the LGBTQ+ community, face a range of barriers in securing employment. For example, research from Harvard Business Review indicates that ethnic minorities are 24% less likely to receive a callback for an interview compared to equally qualified white applicants 1. Additionally, a report from the UK’s Equality and Human Rights Commission found that 7 in 10 women experience workplace discrimination, particularly during hiring and promotion processes 2. Traditional hiring systems continue to foster unconscious bias, often preventing diverse talent from receiving fair consideration.
+
+Efforts like those of the Diversity Cyber Council, a 501c3 Non-Profit, are aimed at addressing these inequities by serving under-represented demographics in the tech industry. Through education, training, and staffing opportunities, they work to establish a sustainable and diverse talent pipeline for the workforce. However, these initiatives alone are not enough without significant reform in the hiring process itself, which is where our application comes in.
+
+Our platform aims to eliminate discrimination at the early stages of recruitment by removing diversity information, ensuring that hiring decisions are made based solely on objective criteria. By complementing efforts like those of the Diversity Cyber Council, our solution supports the development of a more equitable, inclusive job market.
+Problem Statement
+
+The current hiring landscape faces several challenges in promoting fairness and eliminating bias:
+
+    Problem #1: There is a lack of impactful metrics that accurately identify and reduce potential biases in the job candidate hiring and interview process. Many existing systems rely on diversity data early in the recruitment process, which can introduce bias rather than prevent it. Our approach eliminates diversity information at the early stages, ensuring that decisions are based solely on objective qualifications and experience.
+
+    Problem #2: Traditional Applicant Tracking Software (ATS) often proves redundant and ineffective in matching viable candidates with job descriptions. This inefficiency leads to missed opportunities, as qualified applicants are frequently overlooked or poorly matched to roles due to inadequate filtering mechanisms.
+
+Our solution removes diversity data from the initial screening process, creating an unbiased and objective hiring process that focuses solely on the merits of each candidate.
+Sources
+
+Let me know if this version is good!
+Footnotes
+
+    Harvard Business Review: "Minorities Who 'Whiten' Resumes Get More Job Interviews" ↩
+
+    Equality and Human Rights Commission: "Sex Discrimination in the Workplace" ↩
+
 ## Requirements destination
 
 ## Domain exploration
@@ -67,7 +92,7 @@ This decision is described in more detail in [ADR-008](ADR/ADR-008-architecture-
 
 ## Bird's eye system view
 
-The diagram below shows how to organise the designed system using the first level of [C4 model(C4/C4.md). First of all, basing the architecture on events does not mean 
+The diagram below shows how to organise the designed system using the first level of [C4 model](C4/C4.md). First of all, basing the architecture on events does not mean 
 using them for every communication.  The use of HTTP connections will work well for querying external AI systems. 
 On the other hand, the communication between the connectors of external HR systems and these systems is not strictly 
 defined and depends on the analysis of the systems to be connected to. Leaving these decisions to the development 
