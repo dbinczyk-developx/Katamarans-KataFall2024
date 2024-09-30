@@ -107,6 +107,7 @@ team will allow to better addressed coming challenges.
 | [Cost](FitnessFunctions/Cost.md)                               | The goal of that fitness function is to have a control of cost in the system. We are looking for provide a total cost of single job candidate main flow utilization. | Cost                  |
 | [EventHealthFormula](FitnessFunctions/EventHealthFormula.md)   | Defined to evaluate the health and efficiency of the system based on the percentage of failed events.                                                                | Fault Tolerance       |
 | [EventualConsistency](FitnessFunctions/EventualConsistency.md) | Set of metrics used to evaluate how well the system is maintaining consistency across its distributed components over time.                                          | Consistency           |
+| [SensitiveDataSecurity](FitnessFunctions/SensitiveDataSecurity.md) | Protection of sensitive data (Personally Identifiable Information) through component access control and data encryption                                       | Security           |
 
 
 ## Team topologies
