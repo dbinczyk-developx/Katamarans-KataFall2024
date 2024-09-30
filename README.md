@@ -9,7 +9,6 @@
 - [Introduction](#introduction)
 - [Requirements destillation](#requirements-destillation)
 - [Domain exploration](#domain-exploration)
-- [Logical separation](#logical-separation)
 - [Key Architecture Challenges](#key-architecture-challenges)
 - [Architecture characteristics](#architecture-characteristics)
 - [Architecture style selection](#architecture-style-selection)
@@ -80,8 +79,6 @@ The [Event Storming](EventStorming/EventStorming.md) technique was used to ident
 in time and determine the contexts of the ClearView application.
 
 <img src="EventStorming/images/4.jpg">
-
-## Logical separation
 
 A broad view of Event Storming allowed to define the ClearView components. Taking into account the business requirements
 and key
