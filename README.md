@@ -10,7 +10,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Requirements destillation](#requirements-destillation)
+- [Requirements destillation](#requirements-distillation)
 - [Domain exploration](#domain-exploration)
 - [Key Architecture Challenges](#key-architecture-challenges)
 - [Architecture characteristics](#architecture-characteristics)
