@@ -27,18 +27,41 @@ technical aspects, it was possible to identify which components were crucial for
 <img src="EventStorming/images/components.jpg">
 
 ## Key Architecture Challenges
-
 During the requirements analysis, understanding of the business purpose and proceeding Event Storming technique, the following key architecture challenges were identified
 1. External AI Services security and costs.
 2. External HR systems integration.
 3. Secure PII processing to support analysis and reporting.
 
 ## Architecture characteristics
+When approching the project it became obvious that the project will be operating under few assumptions:
+- Considering client is a non-profit organisation with limited funding, one of the main factors would be [**cost** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
+- Because, the designed system has to integrate with various existing and new HR systems through use of connectors, it was decided to pick [**abstraction and integration** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md) as the next characteristics.
+- We are going to use [AI technologies which change very rapidly (ADR-005)](ADR/ADR-005-changing-AI-solution-landscape.md), because of that we had to consider **evolvability** as a characteristic supporting abstraction and integration.
+- Client wants to use AI in few modules which can directly affect the user experience. Following up on the decision about evolving AI market, model efficiency and costs we decided to pick [**performance and scalability** (ADR-003)](adr/ADR-003-ai-performance-considerations.md) as our last characteristics 
+
+During event storming, we identified several key system components that were later visualized on C4 diagrams.
 
 <img src="Architecture/images/picked-characteristics.png">
+
+Out of these, we picked core three components: 
+- **Tips AI Engine** generating tips during company registration and resume improvements,
+- **Anonymization AI Engine** processing candidate resumes, removing all PII and diversity data from them,
+- **HR integration orchestrator** managing multiple connectors pushing data to employer's HR system.
+
+Additionally, during characteristics selection we decided to account for two components that have special security requirements:
+- **Resume and candidate management** component that handles PII and diversity data that can be linked to the candidate
+- **Analytics & reporting** processing large amounts hiring and candidate diversity data that are not directly linked to the candidates, but to the job postings and companies instead.
+
+Even though **security** is emphasized in [ADR-009](ADR/ADR-009-PII-data-safety.md), it is one of the implict characteristics and because of that, it was not considered when picking the Top 3.
+
+Integration characteristic described in [ADR-004](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md) is assigned only to one of the components, but it was selected as Top 3 characteristic because of the business model and possible large count of HR systems this system can integrate with.
+
 <img src="ADR/images/ADR-007-characteristics-sheet.JPG">
 
 ## Architecture style selection
+After selecting [Top 3 characteristics (ADR-007)](ADR/ADR-007-top-3-characteristics.md) we moved on to the architectural style selection. Given our criteria, two styles emerged as the good candidates: microkernel and event-driven architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process, which led us to the event-driven architecture as our target architecture.
+
+This decision is described in more detail in [ADR-008](ADR/ADR-008-architecture-style-selection.md), but key benefits are low cost, ease of introducing changes and high performance
 
 <img src="ADR/images/ADR-008-architecture-style-sheet.JPG">
 

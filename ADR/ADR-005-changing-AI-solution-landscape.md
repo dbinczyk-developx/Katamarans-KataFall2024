@@ -7,7 +7,7 @@
 Accepted
 
 ## Context:
-Building on the decisions in ADR-002 (cost considerations) and ADR-004 (abstraction and integration), the team anticipates the need for long-term flexibility and adaptability in the system. As the AI market continues to evolve and new models or solutions emerge, we need a system capable of adapting without major rework. Additionally, integrating with multiple HR systems, requires an architecture that can evolve to incorporate new connectors, and account for AI service changes..
+Building on the decisions in [ADR-002 (cost considerations)](ADR-002-cost-as-selected-characteristic.md) and [ADR-004 (abstraction and integration)](ADR-004-abstraction-and-integration-as-additional-characteristics.md), the team anticipates the need for long-term flexibility and adaptability in the system. As the AI market continues to evolve and new models or solutions emerge, we need a system capable of adapting without major rework. Additionally, integrating with multiple HR systems, requires an architecture that can evolve to incorporate new connectors, and account for AI service changes..
 
 ## Decision:
 To address this the team has chosen to prioritize evolvability as a core characteristic of the system architecture.
