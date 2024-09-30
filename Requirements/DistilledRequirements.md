@@ -1,10 +1,9 @@
 ﻿# Distilled Functional Requirements
 
 During the elicitation requirements process based on [requirements](Requirements.md), we identified a set of functional
-and non-functional that are essential
-for the success of the AI-driven hiring platform. These requirements are distilled from the requirements prepare to
-focus on the core functionalities and features that will provide the most value to the users. The distilled requirements
-are categorized based on their primary functionality and are listed below:
+and non-functional that are essential for the success of the AI-driven hiring platform. These requirements are distilled
+from the requirements prepare to focus on the core functionalities and features that will provide the most value to the
+users. The distilled requirements are categorized based on their primary functionality and are listed below:
 
 | **Requirement ID** | Category        | **Requirement Name**           | **Description**                                                                                                                                                          |
 |--------------------|-----------------|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,7 +19,7 @@ are categorized based on their primary functionality and are listed below:
 | FR10               | AI              | AI engine improvement          | The AI resume anonymisation engine must be continuously improved based on feedback from DEI consultants and hiring managers.                                             |
 | FR11               | Company details | Company details scraping       | The AI must scrape company details from the web to support filling its data during a registration.                                                                       |~~~~
 
-# Non-Functional Requirements
+# Distilled Non-Functional Requirements
 
 The non-functional requirements define the key attributes and performance standards that the system must meet to ensure
 optimal operation, security, and user satisfaction. These requirements address how the system will perform under various

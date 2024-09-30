@@ -45,7 +45,8 @@ The current hiring landscape faces several challenges in promoting fairness and 
    hiring and interview process. Many existing systems rely on diversity data early in the recruitment process, which
    can introduce bias rather than prevent it. Our approach eliminates diversity information at the early stages,
    ensuring that decisions are based solely on objective qualifications and experience.
-2. Traditional Applicant Tracking Software (ATS, called in this repo HR system) often proves redundant and **ineffective in matching** viable
+2. Traditional Applicant Tracking Software (ATS, called in this repo HR system) often proves redundant and **ineffective
+   in matching** viable
    candidates with job descriptions. This inefficiency leads to missed opportunities, as qualified applicants are
    frequently overlooked or poorly matched to roles due to inadequate filtering mechanisms.
 
@@ -65,13 +66,20 @@ To achieve effective requirement distillation, we employed a collaborative appro
 including hiring managers, DEI consultants, and potential users. Through workshops and interviews, we gathered insights
 and identified pain points in the current hiring processes. This information was then analyzed to prioritize features
 that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
-following sections, ensuring the platform delivers maximum value to its users.
+following sections: [Functional Requirements](Requirements/DistilledRequirements.md#distilled-functional-requirements)
+and [Non-Functional Requirements](Requirements/DistilledRequirements.md#distilled-non-functional-requirements), ensuring
+the platform delivers maximum value to its users.
 
-This chapter outlines the essential business requirements for our hiring platform augmented by AI. These distilled
-functional and non-functional requirements address the limitations of traditional applicant tracking systems (ATS),
-including ineffective candidate-job matching and inherent biases in hiring practices. By concentrating on core
-functionalities, we aim to enhance the hiring experience for both employers and candidates while promoting a fair and
-equitable recruitment process.
+Following the distillation process, we conducted a thorough requirement validation to ensure that the identified
+requirements align with user needs and business objectives. This validation involved iterative feedback sessions with
+stakeholders, where we presented the distilled requirements for review and discussion. By utilizing techniques such as
+user story mapping and prototyping, we ensured that all stakeholders had the opportunity to provide input, thus
+enhancing the quality and relevance of the requirements.
+
+Additionally, we employed usability testing and scenario-based evaluations to assess how well the proposed requirements
+would function in real-world applications. This process helped us identify any gaps or inconsistencies, allowing for
+refinements that enhance both the user experience and overall system functionality. By validating our requirements in
+this manner, we aim to create a robust foundation for our hiring platform that effectively meets the needs of all users.
 
 ## Domain exploration
 
@@ -99,14 +107,17 @@ following key architecture challenges were identified
 
 When approching the project it became obvious that the project will be operating under few assumptions:
 
-- Considering client is a non-profit organisation with limited funding, one of the main factors would be [**cost** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
+- Considering client is a non-profit organisation with limited funding, one of the main factors would be [**cost
+  ** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
 - Because, the designed system has to integrate with various existing and new HR systems through use of connectors, it
-  was decided to pick [**abstraction and integration** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md) as the next characteristics.
+  was decided to pick [**abstraction and integration
+  ** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md) as the next characteristics.
 - We are going to
   use [AI technologies which change very rapidly (ADR-005)](ADR/ADR-005-changing-AI-solution-landscape.md), because of
   that we had to consider **evolvability** as a characteristic supporting abstraction and integration.
 - Client wants to use AI in few modules which can directly affect the user experience. Following up on the decision
-  about evolving AI market, model efficiency and costs we decided to pick [**performance and scalability** (ADR-003)](adr/ADR-003-ai-performance-considerations.md) as our last characteristics
+  about evolving AI market, model efficiency and costs we decided to pick [**performance and scalability
+  ** (ADR-003)](adr/ADR-003-ai-performance-considerations.md) as our last characteristics
 
 During event storming, we identified several key system components that were later visualized on C4 diagrams.
 
