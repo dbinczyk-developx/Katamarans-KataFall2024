@@ -67,8 +67,7 @@ Center: ["Gender discrimination comes in many forms for today’s working women"
 ## Requirements distillation
 
 To achieve effective requirement distillation, we employed a collaborative approach involving job candidate, DEI
-consultant, employer, solution owner, architect, and HR manager using the modified "Six Thinking Hats" technique. Each "
-hat" brought a different viewpoint to the table, helping us explore all dimensions of the hiring process from user
+consultant, employer, solution owner, architect, and HR manager using the modified "Six Thinking Hats" technique. Each "hat" brought a different viewpoint to the table, helping us explore all dimensions of the hiring process from user
 experience to technical feasibility. Through workshops we gathered insights and identified pain points in the current
 hiring
 processes.
