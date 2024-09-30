@@ -1,11 +1,12 @@
 # ClearView by Katamarans
+
 <img src="banner.png" >
 
 ## Team
 
-- Michał Fijałkowski  &nbsp; | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
-- Dawid Bińczyk       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
-- Kacper Cybula   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
+- Michał Fijałkowski &nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
+- Dawid Bińczyk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
+- Kacper Cybula &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
 
 ## Table of Contents
 
@@ -58,37 +59,34 @@ Our solution removes diversity data from the initial screening process, creating
 process that focuses solely on the merits of each candidate.
 Sources
 
-[^1]: Harvard Business School: ["Minorities Who 'Whiten' Resumes Get More Job Interviews"](https://hbswk.hbs.edu/item/minorities-who-whiten-job-resumes-get-more-interviews)
+[^1]: Harvard Business
+School: ["Minorities Who 'Whiten' Resumes Get More Job Interviews"](https://hbswk.hbs.edu/item/minorities-who-whiten-job-resumes-get-more-interviews)
 
-[^2]: Pew Research Center: ["Gender discrimination comes in many forms for today’s working women"](https://www.pewresearch.org/short-reads/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/)
+[^2]: Pew Research
+Center: ["Gender discrimination comes in many forms for today’s working women"](https://www.pewresearch.org/short-reads/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/)
 
 ## Requirements distillation
 
-To achieve effective requirement distillation, we employed a collaborative approach involving key stakeholders,
-including hiring managers, DEI consultants, and potential users point of views. Through workshops we gathered insights
-and identified pain points in the current hiring processes. This information was then analyzed to prioritize features
-that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
-following sections: [Functional Requirements](Requirements/DistilledRequirements.md#distilled-functional-requirements)
+To achieve effective requirement distillation, we employed a collaborative approach involving job candidate, DEI
+consultant, employer, solution owner, architect, and HR manager using the modified "Six Thinking Hats" technique. Each "
+hat" brought a different viewpoint to the table, helping us explore all dimensions of the hiring process from user
+experience to technical feasibility. Through workshops we gathered insights and identified pain points in the current
+hiring
+processes.
+
+The distilled requirements are detailed in the following
+sections: [Functional Requirements](Requirements/DistilledRequirements.md#distilled-functional-requirements)
 and [Non-Functional Requirements](Requirements/DistilledRequirements.md#distilled-non-functional-requirements), ensuring
 the platform delivers maximum user value.
-
-To achieve effective requirement distillation, we employed a collaborative approach using the "Six Thinking Hats"
-technique. In place of direct stakeholder meetings, we identified key perspectives represented by six hats: job
-candidate, DEI consultant, employer, solution owner, architect, and HR manager. Each "hat" brought a different viewpoint
-to the table, helping us explore all dimensions of the hiring process from user experience to technical feasibility.
 
 <p align="center" >
 <img src="Requirements/images/hats.PNG" width="400px">
 </p>
 
 This method allowed us to rigorously evaluate and prioritize features based on their impact and alignment with our
-goals. Its success led us to continue using it in later phases, including the creation of the solution architecture,
-ensuring a well-rounded approach throughout.
-
-Additionally, we employed usability testing and scenario-based evaluations to assess how well the proposed requirements
-would function in real-world applications. This process helped us identify any gaps or inconsistencies, allowing for
-refinements that enhance both the user experience and overall system functionality. By validating our requirements in
-this manner, we aim to create a robust foundation for our hiring platform that effectively meets the needs of all users.
+goals. It helped us identify any gaps or inconsistencies, allowing for refinements that enhance both the user experience
+and overall system functionality. By validating our requirements in this manner, we aim to create a robust foundation
+for our hiring platform that effectively meets the needs of all users.
 
 ## Domain exploration
 
@@ -97,7 +95,8 @@ in time and determine the contexts of the ClearView application.
 
 <img src="EventStorming/images/4.png">
 
-A broad view of Event Storming allowed us to define ClearView components crucial for further analysis of the architecture.
+A broad view of Event Storming allowed us to define ClearView components crucial for further analysis of the
+architecture.
 
 <img src="EventStorming/images/components.jpg">
 
@@ -158,8 +157,10 @@ systems this system can integrate with.
 ## Architecture style selection
 
 After selecting [Top 3 characteristics (ADR-007)](ADR/ADR-007-top-3-characteristics.md) we moved on to the architectural
-style selection. Given our criteria, three styles emerged as the good candidates: 
-microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and evolvability issue. Microkernel was rejected due to problematic scalability.
+style selection. Given our criteria, three styles emerged as the good candidates:
+microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining
+characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and
+evolvability issue. Microkernel was rejected due to problematic scalability.
 
 Our consideration led us to the event-driven architecture as our target architecture.
 
@@ -170,7 +171,8 @@ are low cost, ease of introducing changes and high performance
 
 ## Bird's eye system view
 
-The diagram below shows how to organise the designed system using the second level of [C4 model](C4/C4.md). First of all,
+The diagram below shows how to organise the designed system using the second level of [C4 model](C4/C4.md). First of
+all,
 basing the architecture on events does not mean
 using them for every communication. HTTP connections will work well for querying external AI systems.
 On the other hand, the communication between the connectors of external HR systems and these systems is not strictly
@@ -180,7 +182,10 @@ team will allow to better addressed coming challenges.
 <img src="C4/images/C4-L2.jpg">
 
 ## Example deployment
-To test out validity of our architecture we started thinking how the deployment of an entire system would look like. Outcome of that, was this example Azure deployment diagram. More detailed description can be found in [deployment example document](Deployment/001-deployment-example.md).
+
+To test out validity of our architecture we started thinking how the deployment of an entire system would look like.
+Outcome of that, was this example Azure deployment diagram. More detailed description can be found
+in [deployment example document](Deployment/001-deployment-example.md).
 
 <img src="Deployment/images/clearview_deployment_diagram.drawio.png">
 
