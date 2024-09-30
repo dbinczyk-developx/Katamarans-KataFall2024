@@ -72,14 +72,16 @@ and identified pain points in the current hiring processes. This information was
 that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
 following sections: [Functional Requirements](Requirements/DistilledRequirements.md#distilled-functional-requirements)
 and [Non-Functional Requirements](Requirements/DistilledRequirements.md#distilled-non-functional-requirements), ensuring
-the platform delivers maximum user value.
+the platform delivers maximum value to its users.
 
 To achieve effective requirement distillation, we employed a collaborative approach using the "Six Thinking Hats"
 technique. In place of direct stakeholder meetings, we identified key perspectives represented by six hats: job
 candidate, DEI consultant, employer, solution owner, architect, and HR manager. Each "hat" brought a different viewpoint
 to the table, helping us explore all dimensions of the hiring process from user experience to technical feasibility.
 
-<img src="Requirements/images/hats.PNG">
+<p align="center">
+  <img src="Requirements/images/hats.PNG" width="600px">
+</p>
 
 This method allowed us to rigorously evaluate and prioritize features based on their impact and alignment with our
 goals. Its success led us to continue using it in later phases, including the creation of the solution architecture,
