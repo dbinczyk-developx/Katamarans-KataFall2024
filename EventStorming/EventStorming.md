@@ -20,7 +20,7 @@ During the session our team identified following events:
 5. **Resume analyzed**: The resume undergoes analysis to extract relevant data.
 6. **Anonymized engine adjusted**: The system designed for anonymization is modified for improved performance.
 7. **Anonimized resume created**: A new anonymized resume is generated from the original data.
-8. **Anonimized resume reanonymized**: The already anonymized resume is processed again to ensure compliance.
+8. **Emploer's/job candidate's surveys defined**: New survey definiton for emplyers or job candaidates added.
 9. **Match found**: A suitable candidate-job match is identified by the system.
 10. **Employment process report generated**: A report detailing the employment process is created for review.
 11. **Resume tips proposed**: Suggestions for improving the resume are generated based on analysis.
@@ -42,6 +42,8 @@ During the session our team identified following events:
 27. **Candidates profile listed**: The candidate's profile is included in the searchable database.
 28. **Job description deleted**: An existing job description is removed from the system.
 29. **Company added**: A new company profile is created in the system.
+30. **Resume or job description saved to tokenization database**: Submitted resume or job describtion saved as a token to dedicated database.
+
 
 ## Time sequence
 
