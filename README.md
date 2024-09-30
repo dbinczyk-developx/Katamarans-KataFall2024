@@ -77,7 +77,9 @@ technique. In place of direct stakeholder meetings, we identified key perspectiv
 candidate, DEI consultant, employer, solution owner, architect, and HR manager. Each "hat" brought a different viewpoint
 to the table, helping us explore all dimensions of the hiring process from user experience to technical feasibility.
 
-<img src="Requirements/images/hats.PNG">
+<p align="center" >
+<img src="Requirements/images/hats.PNG" width="400px">
+</p>
 
 This method allowed us to rigorously evaluate and prioritize features based on their impact and alignment with our
 goals. Its success led us to continue using it in later phases, including the creation of the solution architecture,
