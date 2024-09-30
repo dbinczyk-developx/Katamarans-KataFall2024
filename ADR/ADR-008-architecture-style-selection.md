@@ -7,16 +7,14 @@
 Accepted
 
 ## Context:
-In [ADR-007](ADR-007-top-3-characteristics.md), team identified abstraction, cost, and integration as the top characteristics guiding the architecture style selection. Besides those three, team picked out performance, scalability, evolvability as an extra characteristics that should be considered during selection. Continuing the work, team explored several architectural patterns to best meet these selections.
+In [ADR-007](ADR-007-top-3-characteristics.md), team identified abstraction, cost, and integration as the primary characteristics guiding the architecture style selection. Besides those three, team picked out performance, scalability, evolvability as secondary characteristics that should be considered during selection. Continuing the work, team explored several architectural patterns to best meet these selections.
 
 ## Decision:
 The team has decided to adopt an Event-Driven Architecture (EDA) as the architectural style for the system. This architecture supports the system’s need for scalability, performance, and cost-efficiency, while also facilitating abstraction and integration. In an EDA, components communicate asynchronously through events, allowing different parts of the system (HR connectors, AI services) to operate independently, enabling future growth and evolvability with minimal disruption.
 
 <img src="images/ADR-008-architecture-style-sheet.png">
 
-**Note:** Given our criteria, three styles emerged as the good candidates: 
-microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and evolvability issue. 
-Microkernel was rejected due to problematic scalability.
+**Note:** Given our criteria, three styles emerged as the good candidates: microkernel, service-oriented and event-driven architectures. At that moment we also decided to utlize remaining characteristics to aid us in the decision process. Service-oriented was rejected due to high delivery costs and evolvability issue. Microkernel was rejected due to problematic scalability.
 
 ## Consequences:
 ### Pros:

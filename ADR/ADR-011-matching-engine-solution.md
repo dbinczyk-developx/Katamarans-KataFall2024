@@ -13,10 +13,6 @@ We explored several potential solutions to address this challenge. Semantic anal
 
 Another approach considered was basic keyword matching, where the system would simply compare the presence of keywords in resumes and job descriptions. This method is straightforward and computationally light, but it lacked the nuanced comparison needed to accurately evaluate the quality and depth of skills. Keyword matching often leads to false positives, where resumes are deemed a good fit based on superficial matches without considering the relevance or importance of those keywords.
 
-Our team considered several approaches, including semantic analysis and keyword matching. However, we concluded that a tokenization approach combined with a weighted token comparison would provide the best balance between accuracy and complexity. This method allows us to break down both resumes and job descriptions into individual tokens (words or phrases) and then compare them to determine the best match.
-
-In this approach, we need to account for the fact that certain tokens—specifically technical keywords like technology names, programming languages, frameworks, and hard skills—should carry more weight in the comparison process. These tokens are critical in determining a candidate’s suitability for a technical role, and their presence or absence should have a significant impact on the matching score.
-
 ## Decision:
 
 We have decided to implement a solution that tokenizes both the resume and the job offer and then applies a weighted token comparison to determine the best fit. In this approach:

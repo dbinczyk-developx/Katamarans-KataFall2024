@@ -1,7 +1,7 @@
-# ADR-012: Use of separate AI services to anonymise and generate resume tips
+# ADR-010: Use of separate AI services to anonymise and generate resume tips
 
 ## Date:
-2024-09-27
+2024-09-26
 
 ## Status:
 Accepted

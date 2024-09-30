@@ -10,7 +10,7 @@ Accepted
 In previous ADRs team has identieifed multiple characteristics that will drive the overall design and development process. Out of those we had to pick Top 3 characteristics that will be crucial in picking architecture style.
 
 ## Decision:
-The team has decided to select abstraction, cost, and integration as the Top 3 characteristics for the system’s architecture moving forward. This decision will guide all future design choices to ensure that the system remains flexible enough to integrate with new technologies, affordable for the client, and efficient in its operations across different platforms.
+The team has decided to select [cost](ADR-002-cost-as-selected-characteristic.md), [abstraction and integration](ADR-004-abstraction-and-integration-as-additional-characteristics.md) as the Top 3 characteristics for the system’s architecture moving forward. This decision will guide all future design choices to ensure that the system remains flexible enough to integrate with new technologies, affordable for the client, and efficient in its operations across different platforms.
 
 <img src="images/ADR-007-characteristics-sheet.JPG">
 

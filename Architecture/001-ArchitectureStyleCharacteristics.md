@@ -11,7 +11,7 @@ Out of these, we picked core three components (two AI engines and, HR integratio
 - **Resume and candidate management** component that handles PII and diversity data that can be linked to the candidate
 - **Analytics & reporting** processing large amounts hiring and candidate diversity data that are not directly linked to the candidates, but to the job postings and companies instead.
 
-Even though security is emphasized, it is one of the implict characteristics and because of that, it was not considered when picking the Top 3.
+Even though security is emphasized, it was not considered when picking the Top 3 since it's one of the implicit characteristics.
 
 Integration characteristic is assigned only to one of the components, but it was selected as Top 3 characteristic because of the business model and possible large count of HR systems this system can integrate with.
 
@@ -31,7 +31,7 @@ Below are listed all picked characteristics sorted from the most important to th
 
 ### 3. Integration
 - **Definition:** The ability of a system to seamlessly connect and interact with other systems, tools, or services.
-- **Importance:** The system’s business model relies on pushing candidate data to multiple HR systems, making integration a foundational requirement.
+- **Importance:** The system’s business model relies on pushing candidate data to various HR systems, making integration a key requirement.
 
 ## Auxiliary characteristics
 
