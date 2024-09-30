@@ -98,7 +98,7 @@ this manner, we aim to create a robust foundation for our hiring platform that e
 The [Event Storming](EventStorming/EventStorming.md) technique was used to identify the events of the system, order them
 in time and determine the contexts of the ClearView application.
 
-<img src="EventStorming/images/4.jpg">
+<img src="EventStorming/images/4.png">
 
 A broad view of Event Storming allowed us to define ClearView components crucial for further analysis of the architecture.
 

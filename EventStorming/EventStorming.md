@@ -8,7 +8,7 @@ In today's competitive job market, both candidates and employers are increasingl
 
 Collecting events during an Event Storming session is a collaborative and iterative process that allows teams to gain a shared understanding of the current business processes. This foundational knowledge is crucial for designing robust systems that align with business needs. By focusing on events, stakeholders can visualize the flow of information and decisions, ensuring that no critical elements are overlooked in the system design. The resulting event map will serve as a valuable reference for further discussions, modeling, and eventual system implementation.
 
-<img src="images/1.jpg" />
+<img src="images/1.png" />
 
 During the session our team identified following events:
 
@@ -47,13 +47,13 @@ During the session our team identified following events:
 
 Arranging events in chronological order during event storming is essential for gaining a comprehensive understanding of the system, fostering collaboration, clarifying business logic, and ensuring that the design can accommodate real-world scenarios effectively. It serves as a foundational step in building a clear and shared understanding among all participants involved in the process.
 
-<img src="images/2.jpg" />
+<img src="images/2.png" />
 
 ## Actors, commands and external services
 
 Integrating actors, commands, and external services in Event Storming brings clarity, facilitates communication, enhances understanding, and supports a more structured approach to developing complex systems. This comprehensive modeling approach ultimately leads to better-designed software solutions that meet both business requirements and user expectations.
 
-<img src="images/3.jpg" />
+<img src="images/3.png" />
 
 ### Description of the application actors:
 
@@ -73,7 +73,7 @@ Integrating actors, commands, and external services in Event Storming brings cla
 
 The goal of grouping events in event storming is to organize and categorize events based on their significance, context, or relationships to identify patterns, dependencies, and opportunities for improvement within a system or process. This practice helps teams gain a clearer understanding of the domain, facilitates communication, and drives the design of more efficient and effective systems by focusing on core business processes and their interactions.
 
-<img src="images/4.jpg" />
+<img src="images/4.png" />
 
 Description of identified application components:
 
