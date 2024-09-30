@@ -12,7 +12,7 @@ In [ADR-007](ADR-007-top-3-characteristics.md), team identified abstraction, cos
 ## Decision:
 The team has decided to adopt an Event-Driven Architecture (EDA) as the architectural style for the system. This architecture supports the system’s need for scalability, performance, and cost-efficiency, while also facilitating abstraction and integration. In an EDA, components communicate asynchronously through events, allowing different parts of the system (HR connectors, AI services) to operate independently, enabling future growth and evolvability with minimal disruption.
 
-<img src="images/ADR-008-architecture-style-sheet.JPG">
+<img src="images/ADR-008-architecture-style-sheet.png">
 
 **Note:** Microkernel architecture was originally considered as it scored similarly to Event-Driven on Top 3 characteristics, but when taking into account secondary characteristics EDA turned out to be a better fit.
 

@@ -158,7 +158,7 @@ which led us to the event-driven architecture as our target architecture.
 This decision is described in more detail in [ADR-008](ADR/ADR-008-architecture-style-selection.md), but key benefits
 are low cost, ease of introducing changes and high performance
 
-<img src="ADR/images/ADR-008-architecture-style-sheet.JPG">
+<img src="ADR/images/ADR-008-architecture-style-sheet.png">
 
 ## Bird's eye system view
 
