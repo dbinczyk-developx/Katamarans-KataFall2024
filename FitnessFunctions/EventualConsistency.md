@@ -1,3 +1,5 @@
+# Eventual Consistency Fitness Function
+
 In an event-based architecture focusing on eventual consistency, this fitness function is a set of metrics used to evaluate how well the system is maintaining consistency across its distributed components over time.
 
 ## Key Components
