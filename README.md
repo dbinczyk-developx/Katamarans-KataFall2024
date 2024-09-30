@@ -16,7 +16,6 @@
 - [Fitness Functions](#fitness-functions)
 - [Team topologies](#team-topologies)
 
-
 ## Introduction
 
 Discrimination in the recruitment process remains a significant challenge globally. Studies reveal that individuals from
@@ -38,10 +37,7 @@ training, and staffing opportunities, they work to establish a sustainable and d
 workforce. However, these initiatives alone are not enough without significant reform in the hiring process itself,
 which is where our application comes in.
 
-Our platform aims to eliminate discrimination at the early stages of recruitment by removing diversity information,
-ensuring that hiring decisions are made based solely on objective criteria. By complementing efforts like those of the
-Diversity Cyber Council, our solution supports the development of a more equitable, inclusive job market.
-Problem Statement
+### Problem Statement
 
 The current hiring landscape faces several challenges in promoting fairness and eliminating bias:
 
@@ -49,7 +45,7 @@ The current hiring landscape faces several challenges in promoting fairness and 
    hiring and interview process. Many existing systems rely on diversity data early in the recruitment process, which
    can introduce bias rather than prevent it. Our approach eliminates diversity information at the early stages,
    ensuring that decisions are based solely on objective qualifications and experience.
-2. Traditional Applicant Tracking Software (ATS) often proves redundant and **ineffective in matching** viable
+2. Traditional Applicant Tracking Software (ATS, called in this repo HR system) often proves redundant and **ineffective in matching** viable
    candidates with job descriptions. This inefficiency leads to missed opportunities, as qualified applicants are
    frequently overlooked or poorly matched to roles due to inadequate filtering mechanisms.
 
@@ -65,17 +61,17 @@ Sources
 
 ## Requirements distillation
 
-This chapter outlines the essential business requirements for our hiring platform augmented by AI. These distilled
-functional and non-functional requirements address the limitations of traditional applicant tracking systems (ATS),
-including ineffective candidate-job matching and inherent biases in hiring practices. By concentrating on core
-functionalities, we aim to enhance the hiring experience for both employers and candidates while promoting a fair and
-equitable recruitment process.
-
 To achieve effective requirement distillation, we employed a collaborative approach involving key stakeholders,
 including hiring managers, DEI consultants, and potential users. Through workshops and interviews, we gathered insights
 and identified pain points in the current hiring processes. This information was then analyzed to prioritize features
 that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
 following sections, ensuring the platform delivers maximum value to its users.
+
+This chapter outlines the essential business requirements for our hiring platform augmented by AI. These distilled
+functional and non-functional requirements address the limitations of traditional applicant tracking systems (ATS),
+including ineffective candidate-job matching and inherent biases in hiring practices. By concentrating on core
+functionalities, we aim to enhance the hiring experience for both employers and candidates while promoting a fair and
+equitable recruitment process.
 
 ## Domain exploration
 
