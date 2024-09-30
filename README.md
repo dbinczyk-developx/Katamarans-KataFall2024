@@ -55,7 +55,7 @@ technical aspects, it was possible to identify which components were crucial for
 During the requirements analysis, understanding of the business purpose and proceeding Event Storming technique, the following key architecture challenges were identified
 1. External AI Services security and costs.
 2. External HR systems integration.
-3. Secure PII processing to support analysis and reporting.
+3. Secure Personally Identifiable Information (PII) processing to support analysis and reporting.
 
 ## Architecture characteristics
 When approching the project it became obvious that the project will be operating under few assumptions:
