@@ -1,11 +1,11 @@
 # ClearView by Katamarans
-<img src="repo-banner.png" >
+<img src="banner.png" >
 
 ## Team
 
-- Dawid Bińczyk | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
-- Kacper Cybula | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
-- Michał Fijałkowski | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
+- Michał Fijałkowski  &nbsp; | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
+- Dawid Bińczyk       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
+- Kacper Cybula   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
 
 ## Table of Contents
 
@@ -58,11 +58,9 @@ Our solution removes diversity data from the initial screening process, creating
 process that focuses solely on the merits of each candidate.
 Sources
 
-[^1]: Harvard Business School: ["Minorities Who 'Whiten' Resumes Get More Job Interviews"]
-(https://hbswk.hbs.edu/item/minorities-who-whiten-job-resumes-get-more-interviews)
+[^1]: Harvard Business School: ["Minorities Who 'Whiten' Resumes Get More Job Interviews"](https://hbswk.hbs.edu/item/minorities-who-whiten-job-resumes-get-more-interviews)
 
-[^2]: Pew Research Center: ["Gender discrimination comes in many forms for today’s working women"]
-(https://www.pewresearch.org/short-reads/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/)
+[^2]: Pew Research Center: ["Gender discrimination comes in many forms for today’s working women"](https://www.pewresearch.org/short-reads/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/)
 
 ## Requirements distillation
 
@@ -72,16 +70,14 @@ and identified pain points in the current hiring processes. This information was
 that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
 following sections: [Functional Requirements](Requirements/DistilledRequirements.md#distilled-functional-requirements)
 and [Non-Functional Requirements](Requirements/DistilledRequirements.md#distilled-non-functional-requirements), ensuring
-the platform delivers maximum value to its users.
+the platform delivers maximum user value.
 
 To achieve effective requirement distillation, we employed a collaborative approach using the "Six Thinking Hats"
 technique. In place of direct stakeholder meetings, we identified key perspectives represented by six hats: job
 candidate, DEI consultant, employer, solution owner, architect, and HR manager. Each "hat" brought a different viewpoint
 to the table, helping us explore all dimensions of the hiring process from user experience to technical feasibility.
 
-<p align="center">
-  <img src="Requirements/images/hats.PNG" width="600px">
-</p>
+<img src="Requirements/images/hats.PNG">
 
 This method allowed us to rigorously evaluate and prioritize features based on their impact and alignment with our
 goals. Its success led us to continue using it in later phases, including the creation of the solution architecture,
@@ -97,7 +93,7 @@ this manner, we aim to create a robust foundation for our hiring platform that e
 The [Event Storming](EventStorming/EventStorming.md) technique was used to identify the events of the system, order them
 in time and determine the contexts of the ClearView application.
 
-<img src="EventStorming/images/4.jpg">
+<img src="EventStorming/images/4.png">
 
 A broad view of Event Storming allowed us to define ClearView components crucial for further analysis of the architecture.
 
