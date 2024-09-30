@@ -7,6 +7,15 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Domain exploration](#domain-exploration)
+- [Logical separation](#logical-separation)
+- [Key Architecture Challenges](#key-architecture-challenges)
+- [Architecture characteristics](#architecture-characteristics)
+- [Architecture style selection](#architecture-style-selection)
+- [Bird's eye system view](#birds-eye-system-view)
+- [Fitness Functions](#fitness-functions)
+- [Team topologies](#team-topologies)
+
 
 ## Introduction
 
