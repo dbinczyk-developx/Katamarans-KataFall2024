@@ -2,10 +2,11 @@
 <img src="repo-banner.png" >
 
 ## Team
-
-- Dawid Bińczyk | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
-- Kacper Cybula | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
-- Michał Fijałkowski | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)
+|   |  |
+| -------- | --------|
+| Michał Fijałkowski | [LinkedIn](https://www.linkedin.com/in/michalfijalkowski1/)  |
+| Dawid Bińczyk     | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)  |
+| Kacper Cybula      | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)  | 
 
 ## Table of Contents
 
