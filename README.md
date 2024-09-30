@@ -63,9 +63,19 @@ Sources
 [^2]: Pew Research Center: ["Gender discrimination comes in many forms for today’s working women"]
 (https://www.pewresearch.org/short-reads/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/)
 
-## Requirements destination
+## Requirements distillation
 
+This chapter outlines the essential business requirements for our hiring platform augmented by AI. These distilled
+functional and non-functional requirements address the limitations of traditional applicant tracking systems (ATS),
+including ineffective candidate-job matching and inherent biases in hiring practices. By concentrating on core
+functionalities, we aim to enhance the hiring experience for both employers and candidates while promoting a fair and
+equitable recruitment process.
 
+To achieve effective requirement distillation, we employed a collaborative approach involving key stakeholders,
+including hiring managers, DEI consultants, and potential users. Through workshops and interviews, we gathered insights
+and identified pain points in the current hiring processes. This information was then analyzed to prioritize features
+that align with our core mission of bias reduction and efficiency. The distilled requirements are detailed in the
+following sections, ensuring the platform delivers maximum value to its users.
 
 ## Domain exploration
 
