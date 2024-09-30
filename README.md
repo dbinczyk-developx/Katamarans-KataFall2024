@@ -108,7 +108,7 @@ following key architecture challenges were identified
 When approching the project it became obvious that the project will be operating under few assumptions:
 
 - Considering client is a non-profit organisation with limited funding, one of the main factors would be
-- [**cost** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
+  [**cost** described in ADR-002](ADR/ADR-002-cost-as-selected-characteristic.md).
 - Because the designed system has to integrate with various existing and new HR systems through use of connectors, it
   was decided to pick
   [**abstraction and integration** (ADR-004)](ADR/ADR-004-abstraction-and-integration-as-additional-characteristics.md)
