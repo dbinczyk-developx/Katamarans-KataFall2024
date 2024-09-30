@@ -58,8 +58,7 @@ Our solution removes diversity data from the initial screening process, creating
 process that focuses solely on the merits of each candidate.
 Sources
 
-[^1]: Harvard Business School: ["Minorities Who 'Whiten' Resumes Get More Job Interviews"]
-(https://hbswk.hbs.edu/item/minorities-who-whiten-job-resumes-get-more-interviews)
+[^1]: Harvard Business School: ["Minorities Who 'Whiten' Resumes Get More Job Interviews"](https://hbswk.hbs.edu/item/minorities-who-whiten-job-resumes-get-more-interviews)
 
 [^2]: Pew Research Center: ["Gender discrimination comes in many forms for today’s working women"]
 (https://www.pewresearch.org/short-reads/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/)
