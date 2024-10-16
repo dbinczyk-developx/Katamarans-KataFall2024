@@ -7,6 +7,10 @@
 - Dawid Bińczyk       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [LinkedIn](https://www.linkedin.com/in/dawid-binczyk/)
 - Kacper Cybula   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | [LinkedIn](https://www.linkedin.com/in/kacper-cybula/)
 
+## Video presentation
+
+[Watch the video here](https://drive.google.com/file/d/1gQFQmQw-_N_YvMeWF-wl1wSX2d3OacQ9/view?usp=drive_link)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
